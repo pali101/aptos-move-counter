@@ -1,0 +1,16 @@
+[package]
+name = "CounterPackage"
+version = "1.0.0"
+authors = []
+
+[addresses]
+counter_addr="a88897f762d534368fd752ddc32c1190105b3b612f805efd83498a7d5904f446"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
